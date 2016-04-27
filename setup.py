@@ -15,7 +15,7 @@ setup(
     license='MIT',
     keywords='elasticache amazon cache pylibmc memcached aws',
     packages=['django_elasticache'],
-    install_requires=['pylibmc', 'Django>=1.3'],
+    install_requires=['pylibmc==1.5.0', 'Django>=1.3'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
